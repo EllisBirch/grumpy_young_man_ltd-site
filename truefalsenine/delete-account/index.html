@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How to delete your True False Nine account, in the app or by email, and what happens to your data.">
+    <meta name="theme-color" content="#0f1419">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230f1419%22/><text y=%22.9em%22 x=%22.5em%22 font-size=%2268%22 font-family=%22Arial,sans-serif%22 font-weight=%22700%22 fill=%22%23e8b94a%22>G</text></svg>">
+    <title>Delete Your Account — True False Nine</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #0f1419;
+            --bg-elevated: #161c23;
+            --border: #242b35;
+            --border-strong: #2f3742;
+            --text: #e6e8eb;
+            --text-muted: #9aa4b0;
+            --text-dim: #6b7684;
+            --accent: #e8b94a;
+            --max-width: 760px;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .top-nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(15, 20, 25, 0.85);
+            backdrop-filter: saturate(180%) blur(12px);
+            -webkit-backdrop-filter: saturate(180%) blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-brand {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-brand .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .back-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: color 0.15s ease;
+        }
+
+        .back-link:hover {
+            color: var(--text);
+        }
+
+        main {
+            padding: 72px 0 88px;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 4.5vw, 2.75rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul, ol {
+            margin: 0 0 16px 22px;
+            color: var(--text-muted);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .callout {
+            margin: 28px 0;
+            padding: 16px 20px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-strong);
+            border-left: 3px solid var(--accent);
+            border-radius: 8px;
+        }
+
+        .callout p {
+            margin: 0;
+        }
+
+        .page-list {
+            list-style: none;
+            margin: 40px 0 0 0;
+            padding: 0;
+            display: grid;
+            gap: 12px;
+        }
+
+        .page-list a {
+            display: block;
+            padding: 18px 22px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            text-decoration: none;
+            transition: border-color 0.15s ease;
+        }
+
+        .page-list a:hover {
+            border-color: var(--accent);
+            text-decoration: none;
+        }
+
+        .page-list .page-title {
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .page-list .page-desc {
+            color: var(--text-muted);
+            font-size: 0.9375rem;
+            margin-top: 2px;
+        }
+
+        footer {
+            padding: 36px 0 44px;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-nav ul {
+            list-style: none;
+            margin: 0 0 16px 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        .footer-nav a {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer-inner p {
+            color: var(--text-dim);
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 0 0 4px 0;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                transition: none !important;
+                animation: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav" aria-label="Primary">
+        <div class="nav-inner">
+            <a href="/truefalsenine/" class="nav-brand" aria-label="True False Nine legal and support home">
+                <span class="dot" aria-hidden="true"></span>
+                <span>True False Nine</span>
+            </a>
+            <a href="/truefalsenine/" class="back-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+                All pages
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <span class="eyebrow">Account</span>
+            <h1>Delete Your True False Nine Account</h1>
+            <p class="subtitle">For the True False Nine mobile app, operated by GRUMPYYOUNGMAN LTD.<br>Last updated: 26 July 2026 (v1.0)</p>
+
+            <p>This page explains how to delete your True False Nine account, what is deleted, and how long it takes. There are two ways to delete your account, described below.</p>
+
+            <aside class="callout" aria-label="Subscription warning">
+                <p><strong>Have a subscription?</strong> Deleting your account does not cancel it. <a href="#subscriptions">Cancel your subscription</a> through the App Store or Google Play first.</p>
+            </aside>
+
+            <h2>Route 1 (preferred): delete your account in the app</h2>
+            <p>The quickest way to delete your account is from inside the app:</p>
+            <ol>
+                <li>Open <strong>True False Nine</strong> and sign in if you are not already signed in.</li>
+                <li>Go to <strong>Settings</strong>.</li>
+                <li>Tap <strong>Delete Account</strong> and confirm.</li>
+            </ol>
+
+            <h2>Route 2: request deletion by email</h2>
+            <p>If you can no longer access the app — for example, you have uninstalled it or lost your device — email <a href="mailto:ellisbirch@grumpyyoungmanltd.co.uk">ellisbirch@grumpyyoungmanltd.co.uk</a> <strong>from the email address registered on your account</strong>, and include your <strong>username</strong>. We use the sending address to verify that the request comes from the account holder, and we may ask for further information if we cannot verify it. Once verified, we will delete the account and confirm by reply.</p>
+
+            <h2 id="subscriptions">Before you delete: cancel any active subscription</h2>
+            <p>Deleting your True False Nine account does <strong>not</strong> cancel an active subscription. Subscriptions are billed by Apple or Google, not by us, and deleting the account does not stop the billing. If you have an active subscription, cancel it through the store first:</p>
+            <ul>
+                <li><strong>App Store (iPhone/iPad):</strong> open the <strong>Settings</strong> app, tap your name, tap <strong>Subscriptions</strong>, choose <strong>True False Nine</strong>, then tap <strong>Cancel Subscription</strong>.</li>
+                <li><strong>Google Play (Android):</strong> open the <strong>Google Play</strong> app, tap your profile icon, tap <strong>Payments &amp; subscriptions</strong> → <strong>Subscriptions</strong>, choose <strong>True False Nine</strong>, then tap <strong>Cancel subscription</strong>.</li>
+            </ul>
+            <p>Cancelling stops future charges but does not automatically refund past payments — refunds are handled by Apple and Google under their own policies.</p>
+
+            <h2>What gets deleted</h2>
+            <p>When your account is deleted, we delete the personal data linked to it:</p>
+            <ul>
+                <li>your account and sign-in details;</li>
+                <li>your profile — email address, username, avatar, and favourite team;</li>
+                <li>your predictions and answers;</li>
+                <li>your points, scores, and streaks;</li>
+                <li>your league memberships, including leagues you have joined or created.</li>
+            </ul>
+
+            <h2>What we may keep, and why</h2>
+            <p>We may keep a limited set of records after deletion where we are required to keep them to comply with legal obligations, or where they are needed to resolve disputes. Anything retained is kept only for as long as those reasons apply. For more detail, see our <a href="/truefalsenine/privacy/">Privacy Policy</a>.</p>
+
+            <h2>How long it takes</h2>
+            <p>We complete account deletion within 30 days of a verified request. In-app requests (Route 1) are verified automatically, because you are signed in when you make them. Email requests (Route 2) are verified by checking that they come from the email address registered on the account.</p>
+
+            <p>Questions about deletion? Contact us via the <a href="/truefalsenine/support/">support page</a> or email <a href="mailto:ellisbirch@grumpyyoungmanltd.co.uk">ellisbirch@grumpyyoungmanltd.co.uk</a>.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <nav class="footer-nav" aria-label="True False Nine pages">
+                <ul>
+                    <li><a href="/truefalsenine/">Overview</a></li>
+                    <li><a href="/truefalsenine/privacy/">Privacy Policy</a></li>
+                    <li><a href="/truefalsenine/terms/">Terms of Service</a></li>
+                    <li><a href="/truefalsenine/delete-account/">Delete Account</a></li>
+                    <li><a href="/truefalsenine/support/">Support</a></li>
+                </ul>
+            </nav>
+            <p>True False Nine is operated by GRUMPYYOUNGMAN LTD (company number 17140193), registered in England and Wales.</p>
+            <p>Registered office: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom</p>
+        </div>
+    </footer>
+</body>
+</html>

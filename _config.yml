@@ -1,0 +1,4 @@
+# GitHub Pages builds this repo with Jekyll (default settings otherwise).
+# Keep the app-repo reference copy out of the published site.
+exclude:
+  - reference_material
