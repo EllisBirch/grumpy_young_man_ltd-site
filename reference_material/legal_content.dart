@@ -45,9 +45,9 @@ class LegalContent {
 
   /// Version of the Terms/Privacy wording. Recorded against each user at
   /// signup (acceptedTermsVersion) so we can show which version was accepted.
-  static const String termsVersion = '1.0';
+  static const String termsVersion = '1.1';
 
-  static const String _lastUpdated = '26 July 2026';
+  static const String _lastUpdated = '9 August 2026';
 
   static const LegalDoc terms = LegalDoc(
     title: 'Terms of Service',
@@ -98,12 +98,30 @@ class LegalContent {
         '$_appName is a free-to-play prediction game played for fun. Any points, '
             'tokens, streaks, or in-game rewards have no monetary value, cannot '
             'be exchanged for cash or prizes unless we expressly say otherwise, '
-            'and are not a form of betting or gambling. We may add optional paid '
-            'features in the future; if we do, the applicable pricing and terms '
-            'will be shown to you before you buy.',
+            'and are not a form of betting or gambling. Optional paid features '
+            'are described in section 5 (TF9 Premium Subscriptions).',
       ),
       LegalSection(
-        '5. Acceptable Use',
+        '5. TF9 Premium Subscriptions',
+        '$_appName is free to play. TF9 Premium is an optional auto-renewing '
+            'subscription.\n\n'
+            '• TF9 Premium is offered on a monthly or annual basis. The title, '
+            'length and price of each option are shown in the App before '
+            'purchase.\n'
+            '• Payment is charged to your Apple Account on confirmation of '
+            'purchase.\n'
+            '• Your subscription renews automatically at the then-current price '
+            'unless cancelled at least 24 hours before the end of the current '
+            'period.\n'
+            '• You can manage or cancel your subscription at any time in your '
+            'Apple Account settings.\n'
+            '• Refunds are handled by Apple in accordance with Apple\'s '
+            'policies.\n'
+            '• TF9 Premium provides gameplay features only. It does not provide '
+            'any opportunity to win money or prizes.',
+      ),
+      LegalSection(
+        '6. Acceptable Use',
         'When using $_appName, you agree not to: break any applicable law; cheat, '
             'exploit bugs, or manipulate scores and leaderboards; use bots, '
             'scrapers, or automated tools to access the App; harass or abuse other '
@@ -112,7 +130,7 @@ class LegalContent {
             'remove accounts that break these rules.',
       ),
       LegalSection(
-        '6. Predictions and Results',
+        '7. Predictions and Results',
         'Fixtures, scores, league standings, and results shown in the App are '
             'provided for entertainment and may occasionally be delayed, '
             'incomplete, or incorrect. We do our best to keep them accurate but '
@@ -120,7 +138,7 @@ class LegalContent {
             'us acting reasonably and, subject to that, are final.',
       ),
       LegalSection(
-        '7. Intellectual Property',
+        '8. Intellectual Property',
         'The App, including its design, logos, graphics, and software, belongs '
             'to $_companyName and its licensors and is protected by intellectual '
             'property laws. You may use the App for your own personal, '
@@ -130,7 +148,7 @@ class LegalContent {
             'stated.',
       ),
       LegalSection(
-        '8. Termination',
+        '9. Termination',
         'You can stop using $_appName at any time and delete your account from '
             'within the App. We may suspend or terminate your access if you '
             'breach these Terms or if we discontinue the service. Some provisions '
@@ -138,7 +156,7 @@ class LegalContent {
             'termination.',
       ),
       LegalSection(
-        '9. Disclaimers',
+        '10. Disclaimers',
         'The App is provided "as is" and "as available" without warranties of '
             'any kind, whether express or implied, to the fullest extent '
             'permitted by law. We do not warrant that the App will be '
@@ -149,7 +167,7 @@ class LegalContent {
             'for purpose, and as described.',
       ),
       LegalSection(
-        '10. Limitation of Liability',
+        '11. Limitation of Liability',
         'To the maximum extent permitted by law, $_companyName will not be '
             'liable for any indirect, incidental, or consequential losses '
             'arising from your use of the App.\n\n'
@@ -161,12 +179,11 @@ class LegalContent {
             'consumer-protection law.',
       ),
       LegalSection(
-        '11. Apple App Store',
+        '12. Apple App Store',
         'If you downloaded the App from the Apple App Store: these Terms are '
-            'between you and $_companyName, not with Apple Inc. ("Apple"). Your '
-            'licence to use the copy of the App itself is governed by Apple\'s '
-            'standard Licensed Application End User License Agreement, while '
-            'these Terms govern the $_appName service. Apple has no obligation '
+            'between you and $_companyName, not with Apple Inc. ("Apple"). '
+            'These Terms govern both your licence to use the App and your use '
+            'of the $_appName service. Apple has no obligation '
             'to provide maintenance or support for the App and is not '
             'responsible for addressing any claims relating to it. Apple and '
             'its subsidiaries are third-party beneficiaries of these Terms as '
@@ -174,14 +191,14 @@ class LegalContent {
             'against you.',
       ),
       LegalSection(
-        '12. Changes to These Terms',
+        '13. Changes to These Terms',
         'We may update these Terms from time to time. If we make material '
             'changes, we will take reasonable steps to let you know within the '
             'App. Continuing to use $_appName after changes take effect means you '
             'accept the updated Terms.',
       ),
       LegalSection(
-        '13. Governing Law and Jurisdiction',
+        '14. Governing Law and Jurisdiction',
         'These Terms and any dispute arising out of or in connection with '
             'them are governed by the law of England and Wales. You and we '
             'agree that the courts of England and Wales have exclusive '
@@ -192,14 +209,14 @@ class LegalContent {
             'bring proceedings in the courts of that country.',
       ),
       LegalSection(
-        '14. General',
+        '15. General',
         'If any provision of these Terms is found to be invalid or '
             'unenforceable, the remaining provisions continue in full force. '
             'If we do not enforce a provision of these Terms, that is not a '
             'waiver of our right to enforce it later.',
       ),
       LegalSection(
-        '15. Contact Us',
+        '16. Contact Us',
         'Questions about these Terms? Get in touch at $contactEmail.\n\n'
             '$_companyName (company number $_companyNumber)\n'
             'Registered office: $_registeredOffice',
