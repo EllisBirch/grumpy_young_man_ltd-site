@@ -45,9 +45,9 @@ class LegalContent {
 
   /// Version of the Terms/Privacy wording. Recorded against each user at
   /// signup (acceptedTermsVersion) so we can show which version was accepted.
-  static const String termsVersion = '1.1';
+  static const String termsVersion = '1.2';
 
-  static const String _lastUpdated = '9 August 2026';
+  static const String _lastUpdated = '16 August 2026';
 
   static const LegalDoc terms = LegalDoc(
     title: 'Terms of Service',
@@ -62,10 +62,10 @@ class LegalContent {
     sections: [
       LegalSection(
         '1. Eligibility',
-        'You must be at least 13 years old to use $_appName. If you are under '
-            'the age of majority where you live, you may only use the App with '
-            'the involvement and consent of a parent or legal guardian. By using '
-            'the App you confirm that you meet these requirements.',
+        'You must be at least 18 years old to use $_appName. By creating an '
+            'account, you confirm that you are 18 or over. We may suspend or '
+            'close any account where we have reason to believe this requirement '
+            'is not met.',
       ),
       LegalSection(
         '2. Your Account',
@@ -88,18 +88,19 @@ class LegalContent {
             'misleading, or that impersonates someone else. If you see a '
             'username or league name that you believe breaks these rules, '
             'please report it to us at $contactEmail. We review reports '
-            'promptly and may rename, hide, or remove content, and may warn, '
+            'within 24 hours and may rename, hide, or remove content, and may warn, '
             'suspend, or remove accounts responsible for repeated or serious '
             'breaches. If you disagree with an action we take on a report, you '
             'can raise a complaint at the same address and we will review it.',
       ),
       LegalSection(
-        '4. Free-to-Play, No Gambling',
-        '$_appName is a free-to-play prediction game played for fun. Any points, '
-            'tokens, streaks, or in-game rewards have no monetary value, cannot '
-            'be exchanged for cash or prizes unless we expressly say otherwise, '
-            'and are not a form of betting or gambling. Optional paid features '
-            'are described in section 5 (TF9 Premium Subscriptions).',
+        '4. Free-to-Play, No Real-Money Betting',
+        '$_appName is a free-to-play prediction game played for entertainment. '
+            'You cannot stake, wager, or deposit money in the App, and the App '
+            'does not accept bets or pay out winnings. Points, tokens, streaks, '
+            'and other in-game rewards have no monetary value and cannot be '
+            'exchanged for cash or prizes. Optional paid features are described '
+            'in section 5 (TF9 Premium Subscriptions).',
       ),
       LegalSection(
         '5. TF9 Premium Subscriptions',
@@ -325,10 +326,13 @@ class LegalContent {
       ),
       LegalSection(
         '8. Children\'s Privacy',
-        '$_appName is not directed at children under 13, and we do not knowingly '
-            'collect personal information from them. If you believe a child has '
-            'provided us with personal information, please contact us so we can '
-            'remove it.',
+        '$_appName is intended for adults. The App is not directed at children '
+            'or at anyone under 18, and you must be at least 18 to hold an '
+            'account (see section 1 of our Terms of Service). We do not '
+            'knowingly collect personal information from anyone under 18.\n\n'
+            'If you believe someone under 18 has provided us with personal '
+            'information, please contact us at $contactEmail so we can delete '
+            'it and close the account.',
       ),
       LegalSection(
         '9. Changes to This Policy',
